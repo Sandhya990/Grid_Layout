@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+    height: 980px;
+    background-color: blueviolet;
+}
+/* Header have only one column and one row */
+/* Header starts from 1st grid line and ends at 4th grid line */
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    color: wheat;
+    text-align: center;
+    height: 60px;
+}
+/* Styling the class items */
+.item{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    height: 390px;
+    text-align: center;
+    color: black;
+}
+h3{
+    color: blueviolet;
+}
+/* styling the button */
+button{
+    border-radius: 30px;
+    border: 5px solid ;
+    background-color: blueviolet;
+    color: whitesmoke;
+    width: 180px;
+    height: 50px;
+    font-size: medium;
+}
+/* to remove underline, under the anchor tag */
+a{
+    text-decoration: none;
+}
